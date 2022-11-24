@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.center-title {
+    font-size: 3em;
+    color: grey;
+    animation-name: move; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 0;
+}
+
+@keyframes move{
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(30px);}
+    100% {transform: translateY(0px);}
+}
