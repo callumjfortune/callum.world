@@ -8,7 +8,7 @@ body {
 
 h1.center-title {
     font-size: 3em;
-    color: grey;
+    color: lightgrey;
     animation-name: move; 
     animation-duration: 4s;
     animation-iteration-count: infinite;
